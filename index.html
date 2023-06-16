@@ -7,13 +7,20 @@
         float: left;
         width: 25%;
       }
-
       .column3 {
         float: left;
         width: 33.33%;
       }
-
-      /* Clear floats after the columns */
+      .mainbox {
+        text-align: center;
+        background-color: grey;
+        color: white;
+        padding: 15em;
+      }
+      .zamow {
+        color: white;
+        background-color: blue;
+      }
       .row:after {
         content: "";
         display: table;
@@ -34,8 +41,10 @@
     </header>
     <main>
       <div class="mainbox">
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <h1 style="text-align: center">
+          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+        </h1>
+        <button type="button" class="zamow">Zamów usługę</button>
       </div>
 
       <ul>
@@ -68,7 +77,7 @@
           </p>
         </li>
       </ul>
-      <h2>Czym się zajmujemy?</h2>
+      <h2 style="text-align: center">Czym się zajmujemy?</h2>
       <ul>
         <li class="column3">
           <img
@@ -95,7 +104,7 @@
           />
         </li>
       </ul>
-      <h2>Nasz zespół</h2>
+      <h2 style="text-align: center">Nasz zespół</h2>
       <ul>
         <li class="column">
           <figure>
