@@ -2,8 +2,25 @@
 <html lang="pl-PL">
   <head>
     <title>Zadanie domowe GOIT Polska</title>
-  </head>
+    <style>
+      .column {
+        float: left;
+        width: 25%;
+      }
 
+      .column3 {
+        float: left;
+        width: 33.33%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
   <body>
     <header>
       <nav>
@@ -16,65 +33,39 @@
       <a href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-      <style>
-        .column {
-          float: left;
-          width: 25%;
-        }
-
-        .column3 {
-          float: left;
-          width: 33.33%;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-      </style>
       <div class="mainbox">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button type="button">Zamów usługę</button>
       </div>
 
       <ul>
-        <li>
-          <div class="column">
-            <p><strong>Lorem ipsum</strong></p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </div>
+        <li class="column">
+          <p><strong>Lorem ipsum</strong></p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
         </li>
-        <li>
-          <div class="column">
-            <p><strong>Lorem ipsum</strong></p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </div>
+        <li class="column">
+          <p><strong>Lorem ipsum</strong></p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
         </li>
-        <li>
-          <div class="column">
-            <p><strong>Lorem ipsum</strong></p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </div>
+        <li class="column">
+          <p><strong>Lorem ipsum</strong></p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
         </li>
-        <li>
-          <div class="column">
-            <p><strong>Lorem ipsum</strong></p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </div>
+        <li class="column">
+          <p><strong>Lorem ipsum</strong></p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
         </li>
       </ul>
       <h2>Czym się zajmujemy?</h2>
